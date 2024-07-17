@@ -1,0 +1,42 @@
+/* Portal CSS */
+.active{
+    background-color: #1b48e9;
+    color:#ddd !important;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-link:hover{
+    color:rgb(79, 79, 190);
+ }
+ .nav-item a{
+     color: #000 ;
+ }
+ .sidenav{
+    height: 60vw; 
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ a .active{
+  color: #fff !important;
+}
+
